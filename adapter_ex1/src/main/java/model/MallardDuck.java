@@ -1,3 +1,7 @@
+package model;
+
+import model.Duck;
+
 public class MallardDuck implements Duck {
 
 

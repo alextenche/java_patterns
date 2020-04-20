@@ -1,3 +1,5 @@
+import model.*;
+
 public class DuckSimulator {
 
     public static void main(String[] args) {
@@ -10,6 +12,12 @@ public class DuckSimulator {
         Turkey turkey = new WildTurkey();
         Duck turkeyAdapter = new TurkeyAdapter(turkey);
         testDuck(turkeyAdapter);
+
+        // drone test
+        Drone drone = new SuperDrone();
+        Duck droneAdapter = new DroneAdapter(drone);
+        testDuck(droneAdapter);
+
     }
 
     private static void testDuck(Duck duck) {
