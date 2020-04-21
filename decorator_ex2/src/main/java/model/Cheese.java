@@ -2,8 +2,6 @@ package model;
 
 public class Cheese extends ToppingDecorator {
 
-    Pizza pizza;
-
     public Cheese(Pizza pizza) {
         this.pizza = pizza;
     }
