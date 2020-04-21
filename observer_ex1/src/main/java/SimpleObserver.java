@@ -10,9 +10,10 @@ public class SimpleObserver implements Observer {
 
     public void update(int value) {
         this.value = value;
+        display();
     }
 
     public void display() {
-        System.out.println("value: " + value);
+        System.out.println("value changed to " + value);
     }
 }
