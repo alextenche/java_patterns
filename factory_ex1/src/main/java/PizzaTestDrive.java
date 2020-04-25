@@ -1,6 +1,6 @@
 import model.Pizza;
 import model.PizzaStore;
-import model.SimplePizzaFactory;
+import factory.SimplePizzaFactory;
 
 public class PizzaTestDrive {
 

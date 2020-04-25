@@ -1,5 +1,7 @@
 package model;
 
+import factory.SimplePizzaFactory;
+
 public class PizzaStore {
 
     SimplePizzaFactory factory;

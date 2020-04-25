@@ -13,7 +13,7 @@ public abstract class Pizza {
         return name;
     }
 
-    public void prepare(){
+    public void prepare() {
         System.out.println("preparing " + name);
     }
 
