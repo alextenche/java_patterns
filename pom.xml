@@ -23,6 +23,7 @@
         <module>decorator_ex2</module>
         <module>factory_ex2</module>
         <module>factory_ex3</module>
+        <module>factory_ex4</module>
     </modules>
 
     <build>
