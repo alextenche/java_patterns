@@ -30,6 +30,7 @@
         <module>decorator_ex2</module>
 
         <module>iterator_ex1</module>
+        <module>observer_ex3</module>
     </modules>
 
     <build>
