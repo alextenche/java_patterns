@@ -9,29 +9,24 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>static</module>
-
         <module>strategy_ex1</module>
         <module>strategy_ex2</module>
         <module>strategy_ex3</module>
         <module>strategy_ex4</module>
-
         <module>adapter_ex1</module>
         <module>adapter_ex2</module>
-
         <module>factory_ex1</module>
         <module>factory_ex2</module>
         <module>factory_ex3</module>
         <module>factory_ex4</module>
-
         <module>observer_ex1</module>
         <module>observer_ex2</module>
         <module>decorator_ex1</module>
         <module>decorator_ex2</module>
-
         <module>iterator_ex1</module>
         <module>observer_ex3</module>
         <module>decorator_ex3</module>
+        <module>singleton_ex1</module>
     </modules>
 
     <build>
