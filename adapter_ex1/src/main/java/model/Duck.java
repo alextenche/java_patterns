@@ -2,8 +2,8 @@ package model;
 
 public interface Duck {
 
-    public void quack();
+    void quack();
 
-    public void fly();
+    void fly();
 
 }

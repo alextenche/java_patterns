@@ -2,9 +2,9 @@ package model;
 
 public interface Drone {
 
-    public void beep();
+    void beep();
 
-    public void spin_rotors();
+    void spin_rotors();
 
-    public void take_off();
+    void take_off();
 }
